@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.searchbar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.agent_suggestion{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+.agent_list{
+    display: flex;
+}
+
+.agent_icon{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
