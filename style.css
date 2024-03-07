@@ -29,7 +29,7 @@ header{
     visibility: hidden;
 }
 
-.agent_list{
+.suggestion_button{
     display: flex;
     align-items: center;
 }
@@ -42,4 +42,29 @@ header{
 
 .searchbar_input:focus ~ .agent_suggestion{
     visibility: visible;
+}
+
+.image_store{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.agent_store_icon{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.image_store h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image_store_figure{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
