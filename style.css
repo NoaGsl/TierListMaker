@@ -24,6 +24,7 @@ header{
 
 .agent_list{
     display: flex;
+    align-items: center;
 }
 
 .agent_icon{

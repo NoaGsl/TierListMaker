@@ -24,5 +24,4 @@ async function searchAgent(input) {
             <img class="agent_icon" src="${agent.value}" /> \ 
             <p>${agent.key}</p>
         </div>`).join('');
-    
 }
