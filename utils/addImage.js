@@ -7,6 +7,7 @@ export function addImage(input) {
         console.log("button")
         button.addEventListener("mousedown", (event) => {
             console.log("clicked")
+            console.log(event.target)
             const image = event.target.querySelector(".agent_icon").src
             input.value = '';
             placeImage(image);

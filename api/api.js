@@ -7,7 +7,7 @@ export async function GetAgents() {
     for (var i = 0; i < agents.data.length; i++) {
         dict.push({
             key : agents.data[i].displayName,
-            value : agents.data[i].displayIconSmall
+            value : agents.data[i].displayIcon
         });
     }
 

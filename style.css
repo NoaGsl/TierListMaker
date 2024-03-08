@@ -34,13 +34,19 @@ header{
     align-items: center;
 }
 
+.suggestion_button *{
+    pointer-events: none;
+}
+
 .agent_icon{
     width: 50px;
     height: 50px;
     padding: 10px;
 }
 
-.searchbar_input:focus ~ .agent_suggestion{
+.searchbar_input:focus ~ .agent_suggestion,
+.searchbar_input:focus-visible ~ .agent_suggestion
+.searchbar_input:focus-within ~ .agent_suggestion{
     visibility: visible;
 }
 
